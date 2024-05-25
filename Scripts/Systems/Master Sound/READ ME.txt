@@ -1,0 +1,4 @@
+Dependencies:
+https://github.com/pixel-dust-dev/Unity-Audiophile.git
+https://github.com/pixel-dust-dev/Unity-EditorUtilities.git
+https://github.com/pixel-dust-dev/Unity-WeightedObjects.git
