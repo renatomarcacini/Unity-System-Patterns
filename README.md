@@ -3,6 +3,11 @@
 
 💻 Unity System Patterns is a collection of scripts containing the most commonly used patterns for game development. Below is a description of each pattern, dependencies, and examples of use.
 
+- [PubSub Pattern](#pubsub-pattern)
+- [Object Pooling Pattern](#object-pooling-pattern)
+- [Command Queue Pattern](#command-queue-pattern)
+- [UI Controller with State Machine Pattern](#ui-controller-with-state-machine-pattern)
+- [MasterSound](#mastersound)
 
 
 ## PubSub Pattern
