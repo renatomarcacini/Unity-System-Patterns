@@ -356,7 +356,7 @@ MasterSound.GetSavedVolume(MasterSound.AUDIO_OUTPUT.MUSIC); // Load BGM volume
 MasterSound.GetSavedVolume(MasterSound.AUDIO_OUTPUT.EFFECT); // Load SFX volume
 ```
 ## 🔗 Links
-- Author: [@natomarcacini](https://www.github.com/natomarcacini)
+- Author: [@natomarcacini](https://www.github.com/renatomarcacini)
 
   
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://renatomarcacini.github.io/portfolio/)
