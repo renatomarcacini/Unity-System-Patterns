@@ -263,7 +263,7 @@ public class ExampleStateManager : MonoBehaviour
 }
 ```
 
-### GameplayState (Logic)
+#### GameplayState (Logic)
 ```c#
 public class GameplayState : BaseState<ExampleStateManager>
 {
@@ -302,7 +302,7 @@ public class GameplayState : BaseState<ExampleStateManager>
 }
 ```
 
-### GameplayUI (Visual)
+#### GameplayUI (Visual)
 ```c#
 public class GameplayUI : BaseUI
 {
