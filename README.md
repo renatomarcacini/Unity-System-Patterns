@@ -54,7 +54,7 @@ public class MyClassLogic : MonoBehaviour
 }
 ```
 
-#### Subscripe and Unsubscribe
+#### Subscribe and Unsubscribe
 ```c#
 using Nato.PubSub;
 public class MyClassVisual : MonoBehaviour
