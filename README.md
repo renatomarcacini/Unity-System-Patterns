@@ -90,7 +90,7 @@ public class MyPoolManager
     [SerializeField] private Enemy enemyPrefab;
 
     private void Start(){
-        ObjectPool<Enemy>.Create(enemyPrefab, size:10); // Can grow abote the limit
+        ObjectPool<Enemy>.Create(enemyPrefab, size:10); // Can grow above the limit
     }
 
     private void Update(){
