@@ -21,7 +21,7 @@ The PubSub (Publish-Subscribe) pattern for Unity in C# provides an efficient mea
 ```c#
 public class MyClassEvent
 {
-    public struct MyClassScoredEvent
+    public class MyClassScoredEvent
     {
         public int Score { get; private set; }
 
