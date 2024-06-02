@@ -7,7 +7,7 @@
 - [Object Pooling Pattern](#object-pooling-pattern)
 - [Command Queue Pattern](#command-queue-pattern)
 - [UI Controller with State Machine Pattern](#ui-controller-with-state-machine-pattern)
-- [MasterSound](#singleton)
+- [Singleton](#singleton)
 - [MasterSound](#mastersound)
 
 
