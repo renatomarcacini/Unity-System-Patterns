@@ -329,6 +329,48 @@ public class GameplayUI : BaseUI
     }
 }
 ```
+
+## Singleton
+The Singleton pattern in Unity, implemented in C#, ensures that a class has only one instance and provides a global point of access to it. This pattern is particularly useful in game development for managing game states, settings, or any other class where a single instance is sufficient or required. The Singleton pattern helps in maintaining consistent states and data across different scenes and components, providing a controlled and centralized way of accessing shared resources.
+
+### Example Of Usage
+```c#
+
+// GameManager uses the basic Singleton pattern. It ensures only one instance of GameManager exists,
+// and destroys any new instance created. This is useful for managing the game's state, score, etc.
+public class GameManager : Singleton<GameManager>
+{
+    public int Score { get; private set; }
+
+    public void AddScore(int value)
+    {
+        Score += value;
+    }
+}
+
+// SceneTransition uses the Persistent Singleton pattern. It ensures only one instance of SceneTransition exists and persists across scene loads
+public class SceneTransition : PersistentSingleton<SceneTransition>
+{
+    public void LoadScene(string sceneName){}
+}
+
+
+// AudioManager uses the Singleton Auto Instance pattern. It automatically creates an instance if it doesn't exist
+// when accessed, making it suitable for on-demand instance creation and avoiding the need to manually create the instance.
+public class AudioManager : SingletonAutoInstance<AudioManager>
+{
+    public void PlayAudio(AudioClip audioClip){}
+}
+
+// Localization uses the Persistent Singleton Auto Instance pattern. It ensures only one instance of Localization exists,
+// automatically creates it if needed, and persists it across scene loads, making it suitable for managing globally.
+public class Localization : PersistentSingletonAutoInstance<Localization>
+{
+    public void ChangeLanguage(Language language){}
+}
+
+```
+
 ## MasterSound
 MasterSound is an extension for controlling an audio framework called [AudioPhile](https://github.com/pixel-dust-dev/Unity-Audiophile.git). To function correctly, the following dependencies need to be added:
 
